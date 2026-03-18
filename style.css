@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#2e7d32;
+    color:white;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    margin:0;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:15px;
+    font-weight:bold;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+/* Hero section */
+.hero{
+    background:#e8f5e9;
+    text-align:center;
+    padding:40px;
+}
+
+.hero h1{
+    margin-bottom:10px;
+}
+
+/* Container */
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+/* Product Grid */
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+/* Product Card */
+.product-card{
+    background:white;
+    padding:15px;
+    border-radius:6px;
+    text-align:center;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.product-card img{
+    width:100%;
+    border-radius:5px;
+}
+
+.price{
+    font-weight:bold;
+    color:#2e7d32;
+    margin:10px 0;
+}
+
+button{
+    background:#ff9800;
+    border:none;
+    padding:8px 12px;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e68900;
+}
